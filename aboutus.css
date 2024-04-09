@@ -727,13 +727,13 @@ a{
 .kinh-doanh-vt {
   flex: 1;
   position: relative;
-  white-space: pre-wrap;
+
   display: inline-block;
   max-width: 100%;
   z-index: 2;
 }
 .star-point {
-  width: 479px;
+  
   display: flex;
   flex-direction: row;
   align-items: flex-start;

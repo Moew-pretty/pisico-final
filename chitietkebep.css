@@ -1272,6 +1272,7 @@
     display: inline-block;
     flex-shrink: 0;
     z-index: 1;
+    font-family: noto sans;
   }
   .tng-cng-ty-pisico-bnh-nh-wrapper1 {
     width: 916.5px;

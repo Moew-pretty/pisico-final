@@ -1709,6 +1709,7 @@ justify-content: flex-start;
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
+  font-family: noto sans;
 }
 .calculator1 {
   display: flex;

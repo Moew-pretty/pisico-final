@@ -1221,6 +1221,7 @@
   display: inline-block;
   flex-shrink: 0;
   z-index: 1;
+  font-family: noto sans;
 }
 .footer4,
 .tng-cng-ty-pisico-bnh-nh-container {

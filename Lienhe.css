@@ -1190,8 +1190,14 @@ a{
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+    
   }
   .lin-h {
     gap: 41px 165px;
   }
 }
+
+.tng-cng-ty-container1{
+  top: -50px
+}
+

@@ -454,7 +454,7 @@ a{
   width: 462px;
   height: 53px;
   z-index: 2;
-  left: -376px;
+  
 }
 .frame-div {
   top: 0;
@@ -595,7 +595,7 @@ a{
 .frame-parent1 {
   position: absolute;
   top: 148px;
-  left: -361px;
+  
   width: 1301px;
   flex-direction: row;
   gap: 69px;

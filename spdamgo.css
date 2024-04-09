@@ -1376,6 +1376,7 @@ li {
     display: inline-block;
     flex-shrink: 0;
     z-index: 1;
+    font-family: noto sans;
   }
   .event-manager,
   .footer {
