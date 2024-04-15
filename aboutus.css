@@ -1,3 +1,15 @@
+.line{
+  width: 1443px;
+    height: 1px;
+    position: absolute;
+    margin: 0 !important;
+    top: 140px;
+    left: calc(50% - 721px);
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -1181,7 +1193,7 @@ a{
 }
 .cccf486769d8fe05b7316d610599d7-icon {
   height: 645px;
-  width: 539.7px;
+  width: 525.7px;
   position: relative;
   border-radius: var(--br-11xl);
   object-fit: cover;
@@ -1466,7 +1478,7 @@ a{
   position: absolute;
   top: 294px;
   left: 60.9px;
-  width: 71.4px;
+  width: 81.4px;
   height: 89.5px;
 }
 .ellipse-div,
@@ -1492,9 +1504,9 @@ a{
 .vector-14-stroke {
   position: absolute;
   top: 102px;
-  left: 60.4px;
-  width: 1px;
-  height: 198px;
+  left: 65.4px;
+  width: 3px;
+  height: 200px;
   z-index: 1;
 }
 .line-icon,
@@ -1508,10 +1520,10 @@ a{
   z-index: 2;
 }
 .line-icon {
-  top: 381.1px;
-  left: 131.8px;
+  top: 378.1px;
+  left: 130.8px;
   width: 500px;
-  height: 2.4px;
+  height: 7.4px;
   z-index: 5;
 }
 .input-provider {

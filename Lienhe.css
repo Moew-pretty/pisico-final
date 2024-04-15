@@ -1,3 +1,5 @@
+
+
 a{
   text-decoration: none;
   color: black;
@@ -548,16 +550,16 @@ a{
   padding: 0 var(--padding-xl);
 }
 .frame-child5 {
-  height: 85px;
+  /*height: 85px;*/
   width: 728px;
   position: relative;
   border-radius: var(--br-3xs);
   background-color: var(--color-whitesmoke);
-  border: 2px solid var(--color-black);
-  display: none;
+  /*border: 2px solid var(--color-black);
+  display: none;*/
 }
 .h-tn {
-  width: 147px;
+  /*width: 147px;*/
   border: 0;
   outline: 0;
   font-weight: 800;
@@ -572,6 +574,24 @@ a{
   padding: 0;
   z-index: 1;
 }
+
+.rectangle-parent15{
+ 
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-mid) 25px;
+  max-width: 100%;
+
+  border-radius: var(--br-3xs);
+    background-color: var(--color-whitesmoke);
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+
+}
+
 .frame-child6,
 .group-textarea,
 .rectangle-parent2 {
@@ -642,7 +662,7 @@ a{
 .frame-parent14 {
   flex: 1;
   flex-direction: column;
-  gap: 25px;
+  gap: 8px;
   min-width: 473px;
   margin-left: -67px;
   text-align: left;
@@ -732,6 +752,7 @@ a{
   flex-shrink: 0;
   debug_commit: f6aba90;
   z-index: 1;
+  top: 22px;
 }
 .a-ch-phng-trn-quang-diu-wrapper {
   align-self: stretch;
@@ -774,7 +795,7 @@ a{
 .product-menu-child {
   border: 2px solid var(--color-black);
   background-color: var(--color-whitesmoke);
-  height: 251px;
+  height: 171px;
   width: auto;
   outline: 0;
   align-self: stretch;
@@ -799,7 +820,7 @@ a{
   position: relative;
   font-size: var(--font-size-11xl);
   font-weight: 800;
-  font-family: var(--font-noto-sans-thai-looped);
+  font-family: var(--font-noto-sans);
   color: var(--color-white);
   text-align: left;
   display: inline-block;

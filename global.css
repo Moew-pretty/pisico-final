@@ -297,7 +297,7 @@ logo-icon{
 .v-chng-ti-wrapper5 {
   /*height: 32px;*/
   border-radius: var(--br-41xl);
-  background-color: var(--color-white);
+  /*background-color: var(--color-white);*/
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: row;
@@ -598,4 +598,86 @@ a:hover {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+}
+
+/*footer*/
+
+.about-us,
+.footer,
+.tng-cng-ty-pisico-bnh-nh-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.about-us,
+.footer {
+  text-align: left;
+  font-family: var(--font-noto-sans);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 66.3px 96.5px 39px 128px;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+
+
+
+@media screen and (max-width: 800px){
+  .footer {
+    padding-left: 64px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+.footer-child {
+  height: 290px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+}
+
+.compressor {
+  height: 148px;
+  width: 180.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2.9px;
+}
+
+.compressor-child,
+.m-a-t-l-a-b-parser {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.compressor-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
 }
